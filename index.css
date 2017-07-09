@@ -1,0 +1,116 @@
+/********* RESET **********/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/********* MAIN **********/
+
+* {
+    box-sizing: border-box;
+}
+
+body {    
+  background-color: rgba(139, 69, 19, .8);
+  box-sizing: border-box;
+  max-width: 1140px;
+}
+
+.main {
+  width: 100%;
+  color: rgba(139, 69, 19, .9);
+}
+
+.title {
+  margin: 2em auto;
+  text-align: center;
+  color: rgb(238, 232, 170);
+}
+
+h2 {
+  font-size: 2em; 
+  font-weight: 300;
+  font-family: 'Lovers Quarrel', cursive;
+  font-family: 'Felipa', cursive;
+}
+
+.quote-wrapper {
+  width: 60%;
+  margin: auto;  
+}
+
+.quote {
+  background-color: rgb(238, 232, 170);
+  padding: 2em;
+  margin: auto;
+  border-radius: 0.3em;
+}
+
+p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3em;
+  font-style: italic;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+p:before, p:after {
+  content: "''"
+}
+
+h4 {
+  padding-top: 2em;
+  text-align: right;
+}
+
+button {  
+  position: relative;
+  left: 70%;
+  width: 30%;
+  height: 2.5em; 
+  margin-top: 10px;
+  color: rgba(139, 69, 19, .8);
+  background-color: rgb(238, 232, 170);
+  border-radius: 0.3em;
+  border: 0;
+  font-size: 1em;
+}
